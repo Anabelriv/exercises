@@ -1,0 +1,44 @@
+html {
+margin: 10px;
+}
+
+.image {
+    text-align: center;
+    display: block; 
+   justify-content: center;
+   align-items: center;
+}
+img {
+    color: orange;
+    border: solid;
+    border-width: 10px;
+}
+
+#media {
+    text-align: center;
+    display: block;
+}
+
+#title{
+    color: red;
+    border: solid;
+    border-width: 1px;
+    padding:5px;
+    text-align: center;
+    margin: 2px;
+    text-align: center;
+    display: block;
+}
+
+th, td {
+    color: black;
+    border: solid;
+    border-width: 1px;
+    margin: 2px;
+    padding: 2px;
+}
+
+td{
+    padding:20px;
+}
+
