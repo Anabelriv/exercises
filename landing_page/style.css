@@ -4,6 +4,11 @@
 #centerblock{
     background-image: url(https://c1.wallpaperflare.com/preview/1006/255/686/sea-ocean-water-dark.jpg);
     height: 500px;
+    background-size: 100%;
+	width: 100%;
+	max-height: 50vh;
+	padding-top: 50%;
+	margin: auto;
 }
 
 #bar{
