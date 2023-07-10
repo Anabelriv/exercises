@@ -1,0 +1,43 @@
+*{
+    background-color: pink;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+#container{
+    height: 300px;
+    border: 1px solid aqua;
+    position: relative;
+    overflow: auto;
+
+}
+
+#child{
+    width: 100px;
+    height: 50px;
+    border: 5px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    bottom:0;
+    right: 0;
+
+}
+#child:hover{
+    background-color: darkolivegreen;
+}
+@media screen and (max-width:600px){
+    #child{
+        width: 20px;
+        height: 20px;
+        background-color: gold;
+
+    }
+    #container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
