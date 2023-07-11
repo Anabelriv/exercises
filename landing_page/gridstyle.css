@@ -1,0 +1,30 @@
+*{
+    margin-top: 10px;
+}
+#container{
+    display:grid;
+    border:1px solid black;
+    /* this is for width */
+    grid-template-columns: 1fr 2fr; 
+    /* this is for height */
+    grid-template-rows: repeat(4, 1fr);
+    /* grid-column-gap: 10px;
+    grid-row-gap:10px; */
+    grid-gap: 10px;
+}
+
+#child1, #child3{
+    background-color: blue;
+    /* grid-column: 2 /span 3; */
+}
+
+#child2, #child4{
+    background-color:brown;
+    /* grid-row:1 /span 2; */
+}
+
+#child5{
+    background-color: beige;
+    grid-column: 1 /span 2;
+}
+
