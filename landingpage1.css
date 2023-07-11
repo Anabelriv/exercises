@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    background-image: url(https://previews.123rf.com/images/nexusplexus/nexusplexus1910/nexusplexus191000762/131295095-simple-world-digital-map-with-outlined-continents-in-light-pink-colour.jpg);
+    opacity: 0.6;
+}
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    padding: 50px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    /*show heigh: auto*/
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cover{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+.reviewsgrid {
+    background-color: #444;
+    margin: 4px;
+    padding: 2px;
+    justify-self: center;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+}
+
+#reviesgridbottom{
+    align-self: end;
+}
+
+.reviewsgrid > img {
+    width: 100%;
+}
+
+.reviewsgrid:hover {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    background-color: #444;
+}
