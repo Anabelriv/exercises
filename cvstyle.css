@@ -1,0 +1,91 @@
+*{
+    margin: auto 0;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    margin: 0;
+    background-color: navy;
+    height: 20vh;
+}
+
+
+
+.navbar li a {
+    text-decoration: none;
+    /* display: block; */
+    padding: 2px 2px;
+    color: antiquewhite;
+}
+#logo {
+    margin-left: auto;
+    align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cover{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 50vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+#pftitle{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+#name{
+    font-weight: 200;
+    font-size: larger;
+    text-align: center;
+    margin:5px
+}
+#buttons{
+    margin:10px;
+}
+
+.content{
+    padding-top: 5px;
+    display: grid !important;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.gridcontent{
+    width: 100%;
+    background-color: bisque;
+    padding:0px;
+    margin: 10px;
+}
+
+.footer{
+    text-align: center;
+}
+h3 {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:600px){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
